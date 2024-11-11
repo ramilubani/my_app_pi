@@ -8,4 +8,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/register', [UserController::class, 'register']);
+Route::post('/register', [UserController::class, 'register']);
